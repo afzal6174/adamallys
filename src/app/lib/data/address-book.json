@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Adamallys Group",
+    "location": "P.O Box 4884 Dubai UAE",
+    "contact_details": {
+      "tel": "+971 4 284 4848",
+      "fax": "+971 4 284 4880 / 4882"
+    },
+    "email": "adamallys@adamallys-llc.com"
+  },
+  {
+    "name": "Adamallys LLC",
+    "location": "Umm Ramool, Old steel Mill Road, Street 5, Dubai, UAE",
+    "contact_details": {
+      "tel": "+971 4 284 4848",
+      "fax": "+971 4 284 4880 / 4882"
+    },
+    "email": "adamallys@adamallys-llc.com"
+  },
+  {
+    "name": "Adamallys Marine Ship chandling services",
+    "location": "Umm Ramool, Dubai, UAE",
+    "contact_details": {
+      "tel": "+971 4 284 4848",
+      "fax": "+971 4 284 4880 / 4882"
+    },
+    "email": "adamallys@adamallys-llc.com"
+  }
+]

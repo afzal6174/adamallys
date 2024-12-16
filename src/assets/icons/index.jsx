@@ -1,0 +1,34 @@
+import SVGBadge from "./badge.svg";
+import SVGCalender from "./calendar_month.svg";
+import SVGCall from "./call.svg";
+import SVGDashboard from "./dashboard.svg";
+import Facebook from "./facebook.svg";
+import SVGFlyingBird from "./flying-bird.svg";
+import Instagram from "./instagram.svg";
+import SVGInventory from "./inventory.svg";
+import LinkedIn from "./linked-in.svg";
+import SVGLinkedin from "./linkedin.svg";
+import SVGLogo from "./logo.svg";
+import SVGMail from "./mail.svg";
+import SVGs from "./s.svg";
+import SVGSailing from "./sailing.svg";
+import SVGShipping from "./shipping-car.svg";
+import SVGt from "./t.svg";
+
+export const Logo = (props) => <SVGLogo {...props} />;
+export const MailIcon = (props) => <SVGMail {...props} />;
+export const CallIcon = (props) => <SVGCall {...props} />;
+export const LinkedinIcon = (props) => <SVGLinkedin {...props} />;
+export const FlyingBirdIcon = (props) => <SVGFlyingBird {...props} />;
+export const SIcon = (props) => <SVGs {...props} />;
+export const TIcon = (props) => <SVGt {...props} />;
+export const FaceBookIcon = (props) => <Facebook {...props} />;
+export const InstagramIcon = (props) => <Instagram {...props} />;
+export const LinkedInIcon = (props) => <LinkedIn {...props} />;
+
+export const CalenderIcon = (props) => <SVGCalender {...props} />;
+export const BadgeIcon = (props) => <SVGBadge {...props} />;
+export const DashboardIcon = (props) => <SVGDashboard {...props} />;
+export const InventoryIcon = (props) => <SVGInventory {...props} />;
+export const SailingIcon = (props) => <SVGSailing {...props} />;
+export const ShippingIcon = (props) => <SVGShipping {...props} />;

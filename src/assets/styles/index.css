@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: hsl(0, 0%, 100%);
+    --foreground: hsl(213 78% 4%);
+
+    --card: hsl(220, 18%, 97%);
+    --card-foreground: hsl(0 0% 55%);
+
+    --primary: transparent;
+    --primary-foreground: hsl(235 51% 37%);
+
+    --muted: hsl(220 16% 96%);
+    --muted-foreground: hsl(0 0% 24%);
+    --muted-gradient: linear-gradient(
+      180deg,
+      hsl(220 16% 96%) 50.1%,
+      hsl(235 51% 37%) 302.1%
+    );
+
+    --accent: hsl(235 51% 37%);
+    --accent-foreground: hsl(235 68% 29%);
+    --accent-gradient: linear-gradient(
+      123.1deg,
+      hsl(235 51% 37%) -1.57%,
+      hsl(235 51% 11%) 78.46%
+    );
+
+    --destructive: hsl(0 0% 0%);
+    --destructive-foreground: hsl(0 0% 100%);
+    --destructive-gradient: linear-gradient(
+      270.13deg,
+      rgba(0, 0, 0, 0.6) 31.42%,
+      rgba(0, 0, 0, 0) 99.86%
+    );
+
+    --font-calibri: "Calibri", sans-serif;
+    --font-franklin: "Franklin Gothic Medium", sans-serif;
+  }
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+}
